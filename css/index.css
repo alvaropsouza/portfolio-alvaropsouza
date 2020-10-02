@@ -4,6 +4,8 @@ body {
 
 }
 
+/* PRIMEIRA DIV */
+
 header {
     height: 100vh;
     width: 100vw;
@@ -75,7 +77,32 @@ header h2 {
     height: 40px;
 }
 
+/* SEGUNDA DIV */
+
+.habilidades-div {
+    display: flex;  
+    height: 100vh;
+
+    background-image: url('../assets/background.png');
+    background-size: cover;
+}
+
+.cabecalho-habilidades {
+    display: flex;
+
+    align-items: center;
+    height: fit-content;
+
+    font-size: 20pt;
+    color: #A7FFDD;
+    text-shadow: 2px 2px 4px #548f78;
+}
+
 .dev-doll {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+
+    padding: 20px;
+
+    filter: grayscale(0.9);
 }
