@@ -16,17 +16,21 @@ header {
     justify-content: center;
     text-align: center;
 
-    background-image: url('../assets/background-header.jpg');
+    background-image: url('../assets/background.png');
     background-size: cover;
 }
 
 header h1 {
-    font-size: 40pt;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-weight: 400;
+
+    font-size: 80pt;
     height: 30%;
     margin-top: 80px;
+    margin-bottom: 150px;
 
     text-shadow: 2px 1px 3px gray;
-    color: #a7ffdd;
+    color: white;
 }
 
 header h2 {
@@ -54,7 +58,7 @@ header h2 {
     font-weight: 600;
     font-size: 12pt;
     text-transform: uppercase;
-    color: #a7ffdd;
+    color: white;
     text-shadow: 1px 1px 2px black;
 
     width: 200px;
@@ -81,7 +85,10 @@ header h2 {
 
 .habilidades-div {
     display: flex;  
+    flex-direction: column;
     height: 100vh;
+
+    justify-content: center;
 
     background-image: url('../assets/background.png');
     background-size: cover;
@@ -94,8 +101,12 @@ header h2 {
     height: fit-content;
 
     font-size: 20pt;
-    color: #A7FFDD;
+    color: #23da93;
     text-shadow: 2px 2px 4px #548f78;
+}
+
+.cabecalho-habilidades:hover {
+    cursor: default;
 }
 
 .dev-doll {
@@ -105,4 +116,23 @@ header h2 {
     padding: 20px;
 
     filter: grayscale(0.9);
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+
+    justify-content: center;
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+
+li img:hover {
+    opacity: 0.8;
 }
