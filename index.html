@@ -1,80 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/cards-habilidades.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/cards-habilidades.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/projetos.css">
 
-    <title>Álvaro Patrício - Portfólio</title>
+  <title>Álvaro Patrício - Portfólio</title>
 </head>
-<body>
-    <header>
-            
-              <h1>Oi, me chamo Alvaro</h1>
-              <ul class="social-media">
-                <li><img src="./assets/linkedin.svg" alt=""></li>
-                <li><img src="./assets/github.svg" alt=""></li>
-                <li><img src="./assets/wordpress.svg" alt=""></li>
-                <li><img src="./assets/instagram.svg" alt=""></li>
-              </ul>
-            
-            <div class="header-subtitle">
-                 <a href="#habilidades-anchor">
-                  <button style="background-color: rgba(0, 0, 0, 0.63);" class="btn draw-border">
-                      Ver habilidades
-                  </button></a>
-                <img class="arrow-down" src="./assets/arrow-down.gif" alt="">
-            </div>       
-    </header>
 
-    <container class="habilidades-div">
-        <div class="cabecalho-habilidades">
-            <img class="dev-doll" src="./assets/ninja.svg" alt="">
-            <h1 id="habilidades-anchor">Habilidades</h1>           
+<body>
+  <header>
+
+    <h1>Oi, me chamo Alvaro</h1>
+    <ul class="social-media">
+      <a href="https://www.linkedin.com/in/alvaropsouza/">
+        <li><img src="./assets/linkedin.svg" alt=""></li>
+      </a>
+      <a href="https://github.com/alvaropsouza">
+        <li><img src="./assets/github.svg" alt=""></li>
+      </a>
+      <a href="https://devdiarista.wordpress.com/">
+        <li><img src="./assets/wordpress.svg" alt=""></li>
+      </a>
+      <a href="https://www.instagram.com/alvaropsouza/">
+        <li><img src="./assets/instagram.svg" alt=""></li>
+      </a>
+    </ul>
+
+    <div class="header-subtitle">
+
+      <a href="#habilidades-anchor">
+        <button style="background-color: rgba(0, 0, 0, 0.63);" class="btn draw-border">
+          Ver habilidades
+        </button></a>
+
+        <a href="#projetos-anchor">
+          <button style="background-color: rgba(0, 0, 0, 0.63);" class="btn draw-border">
+            Ver projetos
+          </button></a>
+    </div>
+    <div><img class="arrow-down" src="./assets/arrow-down.gif" alt=""></div>
+  </header>
+
+  <container id="habilidades-anchor" class="habilidades-container">
+    <div class="cabecalho-habilidades">
+      <img class="icone-h1" src="./assets/ninja.svg" alt="">
+      <h1>Habilidades</h1>
+    </div>
+    <div class="container-habilidades">
+      <div class="card">
+        <img src="./assets/javascript-logo.png" alt="Person" class="card__image">
+        <p class="card__name">Javascript</p>
+        <div class="grid-container">
+
+          <button class="btn draw-border">
+            Nível: Básico
+          </button>
+      </div>
+
+      </div>
+      <div class="card">
+        <img src="./assets/css-logo.png" alt="Person" class="card__image">
+        <p class="card__name">CSS</p>
+        <div class="grid-container">
+
+          <button class="btn draw-border">
+            Nível: Intermediário
+          </button>
         </div>
-        <div class="container-habilidades">
-            <div class="card">
-              <img src="./assets/javascript-logo.png" alt="Person" class="card__image">
-              <p class="card__name">Javascript</p>
-              <div class="grid-container">
-                
-               <button class="btn draw-border">
-                 Nível: Básico
-                </button>
-          
-              </div>
-              
-          
-            </div>
-            <div class="card">
-              <img src="./assets/css-logo.png" alt="Person" class="card__image">
-              <p class="card__name">CSS</p>
-              <div class="grid-container">
-                
-               <button class="btn draw-border">
-                 Nível: Intermediário
-                </button>
-              </div>
-              
-            </div>
-            <div class="card">
-              <img src="./assets/html-logo.webp" alt="Person" class="card__image">
-              <p class="card__name">HTML5</p>
-              <div class="grid-container">
-                
-               <button class="btn draw-border">
-                 Nível: Intermediário
-                </button>
-              </div>
-              
-            </div>
-          </div>
-    </container>
-<script src="./js/index.js"></script>
+
+      </div>
+      <div class="card">
+        <img src="./assets/html-logo.webp" alt="Person" class="card__image">
+        <p class="card__name">HTML5</p>
+        <div class="grid-container">
+
+          <button class="btn draw-border">
+            Nível: Intermediário
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <a href="#projetos-anchor">
+      
+      <div class="descermais">
+        <button style="background-color: rgba(0, 0, 0, 0.63);" class="btn draw-border">
+          Projetos
+        </button></a>
+        <img class="arrow-down" src="./assets/arrow-down.gif" alt="">
+      </div>
+      
+  </container>
+
+  <container id="projetos-anchor" class="projetos-container">
+    <div class="cabecalho-projetos">
+      <img class="icone-h1" src="./assets/programmer.svg" alt="">
+      <h1>Projetos</h1>
+    </div>
+
+    <div class="projetos-imagens">
+      <a href="https://clever-jackson-e70e97.netlify.app/" target="_blank"><img class="card-projetos" src="./assets/gastrochica-demo.png" alt=""></a>
+      <a href="https://happy-darwin-5140fd.netlify.app/" target="_blank"><img class="card-projetos" src="./assets/alurinha-demo.png" alt=""></a>
+      <a href="https://github.com/alvaropsouza/nextLevelWeek1" target="_blank"><img class="card-projetos" src="./assets/nlw-demo.png  " alt=""></a>
+    </div>
+    <p class="legenda">(Clique nas imagens pra ver a demo da aplicação)</p>
+  </container>   
+
+  <script src="./js/index.js"></script>
 </body>
+
 </html>

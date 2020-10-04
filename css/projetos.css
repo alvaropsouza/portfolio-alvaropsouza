@@ -1,0 +1,39 @@
+.projetos-imagens { 
+    display: flex;
+    margin-top: 30px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-projetos {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px solid #272133;
+
+    margin: 8px;
+
+    object-fit: cover;
+    box-shadow: 0 8px 30px rgb(240, 240, 240);
+}
+
+.card-projetos:hover {
+    transform: scale(1.5);
+
+    width: 400px;
+    height: 260px;
+
+    object-fit: fill;
+}
+
+.legenda {
+    color: white;
+    font-weight: 400;
+    text-shadow: black 2px -2px 2px;
+
+    font-style: italic;
+
+    text-align: center;
+}

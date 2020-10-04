@@ -45,7 +45,7 @@ header h2 {
 
 .header-subtitle {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     align-items: center;
     height: 35%;
@@ -79,11 +79,12 @@ header h2 {
 .arrow-down {
     width: 40px;
     height: 40px;
+
 }
 
-/* SEGUNDA DIV */
+/* SEGUNDA DIV (HABILIDADES)*/
 
-.habilidades-div {
+.habilidades-container, .projetos-container {
     display: flex;  
     flex-direction: column;
     height: 100vh;
@@ -95,7 +96,7 @@ header h2 {
     background-size: cover;
 }
 
-.cabecalho-habilidades {
+.cabecalho-habilidades, .cabecalho-projetos {
     display: flex;
 
     align-items: center;
@@ -110,7 +111,7 @@ header h2 {
     cursor: default;
 }
 
-.dev-doll {
+.icone-h1 {
     width: 80px;
     height: 80px;
 
@@ -136,4 +137,12 @@ li img {
 
 li img:hover {
     opacity: 0.8;
+}
+
+.descermais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 60px;
 }
